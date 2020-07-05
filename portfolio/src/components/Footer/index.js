@@ -1,11 +1,14 @@
 import React from "react";
+import "./styles.css";
 
 function Footer() {
-    return(
-        <div>
+  return (
+    
+<footer className="footer fixed-botom navbar-dark bg-dark">
+  <span className="navbar-brand" href="#">Fixed top</span>
+</footer>
 
-        </div>
-    )
+  );
 }
 
 export default Footer;
