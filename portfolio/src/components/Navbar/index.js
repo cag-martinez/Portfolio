@@ -3,20 +3,27 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
-    return(
-    <ul className="nav justify-content-center">
-        <li className="nav-item">
-        <Link className="nav-link" to="/">
-            Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="Portfolio">
-            Portfolio
-        </Link>
-      </li>
-    </ul>
-    );
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Link className="navbar-brand" to="/">
+        Portfolio
+      </Link>
+      <div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/Home">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="Portfolio">
+              Projects
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;
