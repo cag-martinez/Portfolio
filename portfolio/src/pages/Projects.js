@@ -10,27 +10,29 @@ import img6 from "../assets/images/pizzaBuilder.jpg.png";
 class Projects extends Component {
     render(){
         return(
+            <div>
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <Card imgsrc={img1} />
+                        <Card imgsrc={img1} title="title" />
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={img2}/>
+                        <Card imgsrc={img2} title="title" />
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={img3}/>
+                        <Card imgsrc={img3} title="title" />
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={img4} />
+                        <Card imgsrc={img4} title="title" />
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={img5} />
+                        <Card imgsrc={img5} title="title" />
                     </div>
                     <div className="col-md-4">
-                        <Card imgsrc={img6} />
+                        <Card imgsrc={img6} title="title" />
                     </div>
                 </div>
+            </div>
             </div>
         )
     }
