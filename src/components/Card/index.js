@@ -11,10 +11,10 @@ const Card = (props) => {
           <h4 className="card-title"> {props.title}</h4>
           <p className="card-text text-secondary">{props.description}</p>
           <a href={props.deploy} className="btn btn-outline-success">
-            DEPLOYED APPLICATION
+            Deployed application
           </a>
           <a href={props.github} className="btn btn-outline-success">
-            LINK TO GITHUB
+            Github
           </a>
         </div>
       </div>
