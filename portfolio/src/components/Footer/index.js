@@ -3,10 +3,14 @@ import "./styles.css";
 
 function Footer() {
   return (
-    
-<footer className="footer fixed-botom navbar-dark bg-dark">
-  <span className="navbar-brand" href="#">Fixed top</span>
+
+<footer className="nav justify-content-center">
+
+    <span className="nav-link active"> Copyright © 2020 created by: christian g. m.</span>
+
 </footer>
+    
+
 
   );
 }

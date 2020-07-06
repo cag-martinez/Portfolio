@@ -1,32 +1,41 @@
 import React from "react";
 import "./home.css";
-import picture from "../assets/images/profilePicture.png";
+import picture from "../assets/images/newPictureFace.png.jpg";
 
 function Home() {
   return (
     <div>
+
+      <div className="col-sm-6">
       <div className="cardPicture">
         <img src={picture} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Junior full stack web developer</p>
+        <h4>Hi! my name is Christian</h4>
+          <p className="card-text">
+          Im a junior full stack web developer in the Charlotte area, NC.</p>
         </div>
       </div>
+      </div>
 
+      <div className="col-sm-6">
       <div className="cardContact">
         <div className="card-header">Contact:</div>
-        <ul className="list-group list-group-flush">
+        <div className="list-group list-group-flush">
           <a href="https://github.com/cag-martinez">Github</a>
           <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
             LinkedIn
           </a>
-          <li>Email address: gomez9289@gmail.com</li>
-          <li>Phone number: 704-603-7988</li>
-        </ul>
+          <a>gomez9289@gmail.com</a>
+          <a>704-603-7988</a>
+        </div>
+      </div>
       </div>
 
+
+      
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Fluid jumbotron</h1>
+          <h1 className="display-4">A little about me</h1>
           <p className="lead">
             Solutions-driven full stack web developer applying technical
             skillset towards building functional web applications. With two
@@ -51,6 +60,7 @@ function Home() {
         </div>
       </div>
     </div>
+  
   );
 }
 

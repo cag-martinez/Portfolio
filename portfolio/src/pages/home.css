@@ -1,10 +1,30 @@
 .cardPicture{
-    width: 18rem;
-    border: 5px;
+    
+    width: 30rem;
+    border-width : 5px;
+    border-color: black;
     padding: 5px;
 }
 
-.carrdContact{
+.cardPicture:hover {
+    font-weight: bold;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
+}
+
+.cardContact:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
+}
+
+.cardContact{
     width: 18rem;
-    float: right;
+    border-width : 5px;
+    border-color: black;
+    padding: 5px;
+}
+
+.jumbotron{
+    background-color: rgba(29, 43, 77, 0);
+}
+.jumbotron:hover{
+    box-shadow: 20px 20px 20px 20px rgba(0.253,0.253,0.253,0.253)!important;
 }
