@@ -4,35 +4,35 @@ import picture from "../assets/images/newPictureFace.png.jpg";
 
 function Home() {
   return (
-    <div>
+  <div>
+    <div classsName="row">
+      <div className="col-sm-3">
+        <div className="cardPicture">
+          <img src={picture} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h4>Hi! my name is Christian</h4>
+            <p className="card-text">
+              Im a junior full stack web developer in the Charlotte area, NC.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="col-sm-6">
-      <div className="cardPicture">
-        <img src={picture} className="card-img-top" alt="..." />
-        <div className="card-body">
-        <h4>Hi! my name is Christian</h4>
-          <p className="card-text">
-          Im a junior full stack web developer in the Charlotte area, NC.</p>
+        <div className="cardContact">
+          <div className="card-header">Contact:</div>
+          <div className="list-group list-group-flush">
+            <a href="https://github.com/cag-martinez">Github</a>
+            <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
+              LinkedIn
+            </a>
+            <a>gomez9289@gmail.com</a>
+            <a>704-603-7988</a>
+          </div>
         </div>
       </div>
       </div>
 
-      <div className="col-sm-6">
-      <div className="cardContact">
-        <div className="card-header">Contact:</div>
-        <div className="list-group list-group-flush">
-          <a href="https://github.com/cag-martinez">Github</a>
-          <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
-            LinkedIn
-          </a>
-          <a>gomez9289@gmail.com</a>
-          <a>704-603-7988</a>
-        </div>
-      </div>
-      </div>
-
-
-      
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">A little about me</h1>
@@ -60,7 +60,6 @@ function Home() {
         </div>
       </div>
     </div>
-  
   );
 }
 

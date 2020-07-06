@@ -14,7 +14,13 @@ class Projects extends Component {
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
-                        <Card imgsrc={img1} title="title" />
+                        <Card 
+                            imgsrc={img1} 
+                            title="Burger app"
+                            deploy={"https://dashboard.heroku.com/apps/dazzling-mount-rainier-71399"}
+                            github={"https://github.com/cag-martinez/Burger"}
+                            description={"Burger app"}
+                        />
                     </div>
                     <div className="col-md-4">
                         <Card imgsrc={img2} title="title" />
