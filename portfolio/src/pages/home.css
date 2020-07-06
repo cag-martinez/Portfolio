@@ -1,0 +1,10 @@
+.cardPicture{
+    width: 18rem;
+    border: 5px;
+    padding: 5px;
+}
+
+.carrdContact{
+    width: 18rem;
+    float: right;
+}
