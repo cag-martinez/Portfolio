@@ -14,6 +14,7 @@ class Projects extends Component {
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img6}
                 title="Pizza Tracker"
@@ -26,6 +27,7 @@ class Projects extends Component {
             </div>
             <br></br>
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img5}
                 title="Note Taker"
@@ -37,6 +39,7 @@ class Projects extends Component {
               />
             </div>
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img2}
                 title="Employee Directory"
