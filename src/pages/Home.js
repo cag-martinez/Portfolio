@@ -4,11 +4,11 @@ import picture from "../assets/images/newPictureFace.png.jpg";
 
 function Home() {
   return (
-  <div>
-    <div classsName="row">
-      <div className="col-sm-3">
-        <div className="cardPicture">
-          <img src={picture} className="card-img-top" alt="..." />
+ <div> 
+    
+      <div className="col-sm-6">
+        <div className="cardPicture shadow">
+          <img src={picture} className="card-img" alt="..." />
           <div className="card-body">
             <h4>Hi! my name is Christian</h4>
             <p className="card-text">
@@ -16,8 +16,7 @@ function Home() {
             </p>
           </div>
         </div>
-      </div>
-
+        <br></br>
       <div className="col-sm-6">
         <div className="cardContact">
           <div className="card-header">Contact:</div>

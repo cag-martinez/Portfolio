@@ -9,7 +9,6 @@
 
 .cardPicture:hover {
     background-color: rgba(211, 211, 211, 0.459);
-    font-weight: bold;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
 }
 
@@ -19,7 +18,7 @@
 }
 
 .cardContact{
-    
+    display: inline-block;
     width: 18rem;
     border-width : 5px;
     border-color: black;

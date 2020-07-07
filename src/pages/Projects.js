@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Card from "../components/Card";
 import img1 from "../assets/images/burger2.png";
 import img2 from "../assets/images/employeeDirectory.png";
-import img3 from "../assets/images/employeeTrackerNew.png";
+import img3 from "../assets/images/tracker.png";
 import img4 from "../assets/images/lyricsPluss.png";
 import img5 from "../assets/images/noteTaker.png";
-import img6 from "../assets/images/pizzaBuilder.jpg.png";
+import img6 from "../assets/images/newPizza.png";
 
 class Projects extends Component {
   render() {
@@ -24,6 +24,7 @@ class Projects extends Component {
                 }
               />
             </div>
+            <br></br>
             <div className="col-md-4">
               <Card
                 imgsrc={img5}
@@ -47,6 +48,7 @@ class Projects extends Component {
               />
             </div>
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img1}
                 title="Burger app"
@@ -60,6 +62,7 @@ class Projects extends Component {
               />
             </div>
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img3}
                 title="Employee tracker"
@@ -71,6 +74,7 @@ class Projects extends Component {
               />
             </div>
             <div className="col-md-4">
+              <br></br>
               <Card
                 imgsrc={img4}
                 title="Lyrics+"
