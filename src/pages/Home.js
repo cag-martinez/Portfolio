@@ -10,9 +10,9 @@ function Home() {
         <div className="cardPicture shadow">
           <img src={picture} className="card-img" alt="..." />
           <div className="card-body">
-            <h4>Hi! my name is Christian</h4>
+            <h4>Hi! My name is Christian</h4>
             <p className="card-text">
-              Im a junior full stack web developer in the Charlotte area, NC.
+              Im a junior full-stack web developer in the Charlotte area, NC.
             </p>
           </div>
         </div>

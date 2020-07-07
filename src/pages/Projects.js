@@ -16,7 +16,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <Card
                 imgsrc={img6}
-                title="Pizza tracker"
+                title="Pizza Tracker"
                 deploy={"https://pizza--tracker.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Pizza_tracker"}
                 description={
@@ -28,7 +28,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <Card
                 imgsrc={img5}
-                title="Note taker"
+                title="Note Taker"
                 deploy={"https://secure-beach-10858.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/note-taker"}
                 description={
@@ -39,7 +39,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <Card
                 imgsrc={img2}
-                title="Employee directory"
+                title="Employee Directory"
                 deploy={"https://infinite-citadel-35350.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/employee_directory"}
                 description={
@@ -51,13 +51,13 @@ class Projects extends Component {
               <br></br>
               <Card
                 imgsrc={img1}
-                title="Burger app"
+                title="Burger App"
                 deploy={
                   "https://dashboard.heroku.com/apps/dazzling-mount-rainier-71399"
                 }
                 github={"https://github.com/cag-martinez/Burger"}
                 description={
-                  "fun game that alows users to upload a fun burger name view the burgers others have submited and DEVOUR ONE!"
+                  "fun game that allows users to upload a fun burger name view the burgers others have submited and DEVOUR ONE!"
                 }
               />
             </div>
@@ -65,7 +65,7 @@ class Projects extends Component {
               <br></br>
               <Card
                 imgsrc={img3}
-                title="Employee tracker"
+                title="Employee Tracker"
                 deploy={"https://github.com/cag-martinez/Employee_tracker"}
                 github={"https://github.com/cag-martinez/Employee_tracker"}
                 description={
