@@ -18,11 +18,9 @@
 }
 
 .cardContact{
-    display: inline-block;
-    width: 18rem;
-    border-width : 5px;
-    border-color: black;
-    padding: 5px;
+    width: 28rem;
+
+    padding: 4px;
 }
 
 .jumbotron{

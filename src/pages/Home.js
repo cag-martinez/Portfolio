@@ -25,13 +25,16 @@ function Home() {
             <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
               LinkedIn
             </a>
+            <a href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing">
+              Resume
+            </a>
             <a>gomez9289@gmail.com</a>
             <a>704-603-7988</a>
           </div>
         </div>
       </div>
       </div>
-
+      <br></br>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">A little about me</h1>
