@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css"
 
 const Card = (props) => {
   return (
     <div>
-      <div className="card text-center">
+      <div className="project-card text-center">
         <div className="overflow">
           <img src={props.imgsrc} alt="altName" className="card-img-top" />
         </div>

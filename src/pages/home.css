@@ -1,21 +1,25 @@
 .cardPicture{
-    
     width: 30rem;
-    border-width : 5px;
-    border-color: black;
+    border: 1px inset rgb(145, 138, 138);
+    outline-style: inset;
+    outline-color: rgb(177, 177, 177);
+    outline-width: thin;
     padding: 5px;
 }
 
 .cardPicture:hover {
+    background-color: rgba(211, 211, 211, 0.459);
     font-weight: bold;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
 }
 
 .cardContact:hover {
+    background-color: rgba(211, 211, 211, 0.459);
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
 }
 
 .cardContact{
+    
     width: 18rem;
     border-width : 5px;
     border-color: black;
@@ -24,7 +28,9 @@
 
 .jumbotron{
     background-color: rgba(29, 43, 77, 0);
+    
 }
 .jumbotron:hover{
+    background-color: rgba(211, 211, 211, 0.459);
     box-shadow: 20px 20px 20px 20px rgba(0.253,0.253,0.253,0.253)!important;
 }
