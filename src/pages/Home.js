@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
-import picture from "../assets/images/newPictureFace.png.jpg";
+import picture from "../assets/images/profilePicture.png";
 
 function Home() {
   return (
- <div> 
+ <div className="row home-row"> 
     
       <div className="col-sm-6">
         <div className="cardPicture shadow">
@@ -35,7 +35,7 @@ function Home() {
       </div>
       </div>
       <br></br>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron col-sm-6 jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">A little about me</h1>
           <p className="lead">

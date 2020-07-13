@@ -31,3 +31,8 @@
     background-color: rgba(211, 211, 211, 0.459);
     box-shadow: 20px 20px 20px 20px rgba(0.253,0.253,0.253,0.253)!important;
 }
+
+.home-row {
+    padding-left: 10%;
+    padding-right: 10%;
+}
