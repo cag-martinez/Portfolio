@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import img1 from "../assets/images/burger2.png";
 import img2 from "../assets/images/employeeDirectory.png";
 import img3 from "../assets/images/tracker.png";
-import img4 from "../assets/images/lyricsPluss.png";
+import img4 from "../assets/images/bossBudget.png";
 import img5 from "../assets/images/noteTaker.png";
 import img6 from "../assets/images/newPizza.png";
 
@@ -13,6 +13,18 @@ class Projects extends Component {
       <div>
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
+          <div className="col-md-4">
+              <br></br>
+              <Card
+                imgsrc={img4}
+                title="Boss Budget"
+                deploy={"http://boss-budget.herokuapp.com/"}
+                github={"https://github.com/cag-martinez/Lyrics_plus"}
+                description={
+                  "A budgeting application that allows the user to carefully balance their income and expenses, while being able to see curent stock market trends."
+                }
+              />
+            </div>
             <div className="col-md-4">
               <br></br>
               <Card
@@ -76,18 +88,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-md-4">
-              <br></br>
-              <Card
-                imgsrc={img4}
-                title="Lyrics+"
-                deploy={"https://cglennon924.github.io/Project-1/"}
-                github={"https://github.com/cag-martinez/Lyrics_plus"}
-                description={
-                  "simple application that allows users to search their favorite artist and find the lirics to some of their top songs using API's."
-                }
-              />
-            </div>
+
           </div>
         </div>
       </div>
