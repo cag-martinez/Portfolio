@@ -2,6 +2,12 @@
 .App {
   text-align: center;
   background-image: url("https://fbcd.co/images/products/87ba45e48f8502a215d8c5e058beffa1_small.jpg");
+  background-attachment: fixed;
+
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
+
 
 

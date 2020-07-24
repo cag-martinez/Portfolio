@@ -6,6 +6,7 @@ import img3 from "../assets/images/tracker.png";
 import img4 from "../assets/images/bossBudget.png";
 import img5 from "../assets/images/noteTaker.png";
 import img6 from "../assets/images/newPizza.png";
+import "./projects.css"
 
 class Projects extends Component {
   render() {
@@ -13,8 +14,8 @@ class Projects extends Component {
       <div>
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
-          <div className="col-md-4">
-              <br></br>
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img4}
                 title="Boss Budget"
@@ -25,8 +26,8 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-md-4">
-              <br></br>
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img6}
                 title="Pizza Tracker"
@@ -37,9 +38,9 @@ class Projects extends Component {
                 }
               />
             </div>
-            <br></br>
-            <div className="col-md-4">
-              <br></br>
+            
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img5}
                 title="Note Taker"
@@ -50,8 +51,8 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-md-4">
-              <br></br>
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img2}
                 title="Employee Directory"
@@ -62,8 +63,8 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-md-4">
-              <br></br>
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img1}
                 title="Burger App"
@@ -76,8 +77,8 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-md-4">
-              <br></br>
+            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+              
               <Card
                 imgsrc={img3}
                 title="Employee Tracker"
@@ -88,7 +89,6 @@ class Projects extends Component {
                 }
               />
             </div>
-
           </div>
         </div>
       </div>
