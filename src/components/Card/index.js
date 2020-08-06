@@ -8,9 +8,9 @@ const Card = (props) => {
         <div className="overflow">
           <img src={props.imgsrc} alt="altName" className="card-img-top" />
         </div>
-        <div className="card-body text-dark">
+        <div className="card-body">
           <h4 className="card-title"> {props.title}</h4>
-          <p className="card-text text-secondary">{props.description}</p>
+          <p className="card-text">{props.description}</p>
           <a href={props.deploy} className="btn btn-outline-success">
             Deployed application
           </a>
