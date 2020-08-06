@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import picture from "../assets/images/profilePicture.png";
+import picture from "../assets/images/suit.png";
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
           <div className="card-body">
             <h4>Hi! My name is Christian</h4>
             <p className="card-text">
-              Im a junior full-stack web developer in the Charlotte area, NC.
+              I'm a full-stack web developer in the Charlotte Metro, NC.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ function Home() {
             <a href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing">
               Resume
             </a>
-            <a>cag.martinez20@gmail.com</a>
+            <a href="https://infinite-wildwood-08615.herokuapp.com/Contact"> cag.martinez20@gmail.com</a>
             <a>704-603-7988</a>
           </div>
         </div>
