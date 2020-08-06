@@ -1,5 +1,5 @@
 .cardPicture{
-    width: 30rem;
+    width: 20rem;
     border: 1px inset rgb(145, 138, 138);
     outline-style: inset;
     outline-color: rgb(177, 177, 177);
@@ -18,13 +18,13 @@
 }
 
 .cardContact{
-    width: 28rem;
+    width: 18rem;
 
     padding: 4px;
 }
 
 .jumbotron{
-    background-color: rgba(29, 43, 77, 0);
+    background-color: rgba(11, 12, 12, 0);
     
 }
 .jumbotron:hover{
