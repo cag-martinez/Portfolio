@@ -4,8 +4,7 @@ import picture from "../assets/images/suit.png";
 
 function Home() {
   return (
- <div className="row home-row"> 
-    
+    <div className="row home-row">
       <div className="col-sm-6">
         <div className="cardPicture shadow">
           <img src={picture} className="card-img" alt="..." />
@@ -17,22 +16,25 @@ function Home() {
           </div>
         </div>
         <br></br>
-      <div className="col-sm-6">
-        <div className="cardContact">
-          <div className="card-header">Contact:</div>
-          <div className="list-group list-group-flush">
-            <a href="https://github.com/cag-martinez">Github</a>
-            <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
-              LinkedIn
-            </a>
-            <a href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing">
-              Resume
-            </a>
-            <a href="https://infinite-wildwood-08615.herokuapp.com/Contact"> cag.martinez20@gmail.com</a>
-            <a>704-603-7988</a>
+        <div className="col-sm-6">
+          <div className="cardContact">
+            <div className="card-header">Contact:</div>
+            <div className="list-group list-group-flush">
+              <a href="https://github.com/cag-martinez">Github</a>
+              <a href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/">
+                LinkedIn
+              </a>
+              <a href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing">
+                Resume
+              </a>
+              <a href="https://infinite-wildwood-08615.herokuapp.com/Contact">
+                {" "}
+                cag.martinez20@gmail.com
+              </a>
+              <a>704-603-7988</a>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <br></br>
       <div className="jumbotron col-sm-6 jumbotron-fluid">
@@ -45,19 +47,20 @@ function Home() {
             and four years working at a top-level country club as a sous chef
             leading a fantastic team there is a lot that I have learned and
             experienced. Although fascinating, the most exhilarating moments are
-            those spent solving problems by creating user-friendly interfaces.My
-            skills include HTML, CSS, JavaScript, and Node using programs such
-            as Mysql or visual studio code. With the knowledge I have acquired
-            from the full stack web development bootcamp at The University of
-            North Carolina at Charlotte, I have been able to collaborate with
-            small teams in various projects in which not only have I been able
-            to learn but also have had the opportunity to teach and showcase my
-            communication and organizational skills. My fast learning abilities
-            have allowed me to work through projects at a rapid pace and also
-            solve complex problems in a timely manner allowing me more time to
-            focus on the smaller details. With a strong desire to continuously
-            learn new skills, I want to continue to create mobile-first designs
-            for users to have a great experience.
+            those spent solving problems by creating user-friendly interfaces.
+            My skills include HTML5, CSS3, JavaScript, Reactjs, Nodejs, MongoDB,
+            Mysql, OOP, MVC, API's, Git, CLI and visual studio code. With the
+            knowledge I have acquired from the full stack web development
+            bootcamp at The University of North Carolina at Charlotte, I have
+            been able to collaborate with small teams in various projects in
+            which not only have I been able to learn but also have had the
+            opportunity to teach and showcase my communication and
+            organizational skills. My fast learning abilities have allowed me to
+            work through projects at a rapid pace and also solve complex
+            problems in a timely manner allowing me more time to focus on the
+            smaller details. With a strong desire to continuously learn new
+            skills, I want to continue to create mobile-first designs for users
+            to have a great experience.
           </p>
         </div>
       </div>

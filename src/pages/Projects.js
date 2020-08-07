@@ -12,7 +12,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid d-flex justify-content-center">
+        <div className="flex-container container-fluid d-flex justify-content-center">
           <div className="row">
             <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
               
