@@ -1,13 +1,7 @@
-.project-card{
-    border: 1px inset rgb(145, 138, 138);
-    outline-style: inset;
-    outline-color: rgb(177, 177, 177);
-    outline-width: thin;
 
-}
 .project-card:hover{
 
-    background-color: rgba(211, 211, 211, 0.372);
+    background-color: rgba(211, 211, 211, 0.132);
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
 }
 
