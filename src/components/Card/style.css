@@ -1,9 +1,4 @@
 
-.project-card:hover{
-
-    background-color: rgba(211, 211, 211, 0.132);
-    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.253)!important;
-}
 
 .card-body {
     padding: 3rem 0 !important;
