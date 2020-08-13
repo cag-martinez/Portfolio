@@ -55,11 +55,11 @@ export default class MyForm extends React.Component {
         {/* <!-- add your custom form HTML here --> */}
         {/* <label>Email:</label>
         <input type="email" name="email" /> */}
-        <input className="form-email" type="text" name="_replyto" placeholder="Your email" />
-        <label>Message:</label>
-        <input className="form-message" type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        <input className="form-email" type="text" name="_replyto" placeholder="Reply to email address" />
+        <label className="message-text"></label>
+        <input className="form-message" type="text" name="message" placeholder="Message"/>
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="button">Submit</button>}
+        {status === "ERROR" && <p>Ooops! There was an error. Please try again.</p>}
       </form>
     );
   }

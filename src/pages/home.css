@@ -14,7 +14,8 @@
 
 .jumbotron{
     background-color: rgba(11, 12, 12, 0);
-    padding: 0;
+    width: 45rem;
+    padding: 4px;
 }
 
 

@@ -11,7 +11,7 @@ function Home() {
           <div className="card-body">
             <h4>Hi! My name is Christian</h4>
             <p className="card-text">
-              I'm a full-stack web developer in the Charlotte Metro, NC.
+              I'm a full-stack web developer in the Charlotte metro area, NC.
             </p>
           </div>
         </div>

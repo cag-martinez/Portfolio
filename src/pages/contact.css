@@ -4,3 +4,28 @@
     margin-top: 100px;
     padding-bottom: 600px;
 }
+.form-email {
+    width: 55%;
+    padding: 1%;
+    margin: 10%;
+
+    text-align: center;
+}
+
+.form-message {
+    width: 55%;
+    padding: 7%;
+    margin: 10%;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.button {
+    background-color: rgba(128, 128, 128, 0.523);
+    color: aliceblue;
+    width: 55%;
+    margin: 10%;
+    margin-top: 0;
+}
+
