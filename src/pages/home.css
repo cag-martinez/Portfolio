@@ -1,4 +1,9 @@
-
+.card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 .cardPicture{
     width: 20rem;
@@ -7,18 +12,16 @@
     outline-color: rgb(177, 177, 177);
     outline-width: thin;
     padding: 5px;
+    inline-size: inherit;
 }
 
-.cardContact{
-    width: 18rem;
-    padding: 4px;
-}
+
 
 .jumbotron{
     background-color: rgba(11, 12, 12, 0);
-    width: 45rem;
+    width: 50rem;
     padding: 4px;
-    
+    inline-size: inherit;
 }
 
 
