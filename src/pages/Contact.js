@@ -1,45 +1,12 @@
 import React from "react";
 import "./contact.css";
 
-// function Contact() {
-//   return (
-//     <div>
-//       <form className="form" style={{ display: "fluid", justifyContent: "center", alignItems: "center", possition: "relative" }}>
-//         <div className="form-group">
-//           <input
-//             className="form-control"
-//             id="exampleFormControlTextarea1"
-//             placeholder="Name">              
-//             </input>
-//           <input
-//             type="email"
-//             className="form-control"
-//             id="exampleFormControlInput1"
-//             placeholder="email@email.com"
-//           />
-        
-//         <div className="form-group">
-//           <textarea
-//             className="form-control"
-//             id="exampleFormControlTextarea1"
-//             placeholder="Message"
-//             rows="3"
-//           ></textarea>
-//           </div>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: ""
+      status: "",
     };
   }
 
@@ -47,7 +14,7 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <form
-      className="form"
+        className="form"
         onSubmit={this.submitForm}
         action="https://formspree.io/xjvajeek"
         method="POST"
@@ -55,11 +22,27 @@ export default class MyForm extends React.Component {
         {/* <!-- add your custom form HTML here --> */}
         {/* <label>Email:</label>
         <input type="email" name="email" /> */}
-        <input className="form-email" type="text" name="_replyto" placeholder="Reply to email address" />
+        <input
+          className="form-email"
+          type="text"
+          name="_replyto"
+          placeholder="Reply to email address"
+        />
         <label className="message-text"></label>
-        <input className="form-message" type="text" name="message" placeholder="Message"/>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="button">Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error. Please try again.</p>}
+        <input
+          className="form-message"
+          type="text"
+          name="message"
+          placeholder="Message"
+        />
+        {status === "SUCCESS" ? (
+          <p>Thanks!</p>
+        ) : (
+          <button className="button">Submit</button>
+        )}
+        {status === "ERROR" && (
+          <p>Ooops! There was an error. Please try again.</p>
+        )}
       </form>
     );
   }

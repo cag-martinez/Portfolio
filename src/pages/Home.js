@@ -32,9 +32,7 @@ function Home() {
         </div>
         <br></br>
         <div className="col-sm-6">
-          <div className="cardContact">
-
-          </div>
+          <div className="cardContact"></div>
         </div>
       </div>
       <br></br>
@@ -63,6 +61,68 @@ function Home() {
             skills, I want to continue to create mobile-first designs for users
             to have a great experience.
           </p>
+        </div>
+      </div>
+    
+      <div className="card col-sm-12">
+        <div className="card-body">
+        <div><p>Languages : Frameworks : Libraries</p></div>
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <i className="fab fa-js-square"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-react"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-node-js"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-html5"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-css3-alt"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-mysql-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-sequelize-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-mongodb-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-bootstrap"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-git"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-github"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-jquery-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-handlebars-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-express-original"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-heroku-original"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-database"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-server"></i>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
