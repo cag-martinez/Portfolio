@@ -6,7 +6,7 @@ function Footer() {
 
 <footer className="nav justify-content-center">
 
-    <span className="nav-link active"> Copyright © 2020 created by: Christian G.M.</span>
+    <span className="nav-link active"> Copyright © 2020</span>
 
 </footer>
     
