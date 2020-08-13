@@ -12,7 +12,7 @@ const Card = (props) => {
           <h4 className="card-title"> {props.title}</h4>
           <p className="card-text">{props.description}</p>
           <a href={props.deploy} className="btn btn-outline-success">
-            Deployed application
+            Link
           </a>
           <a href={props.github} className="btn btn-outline-success">
             Github

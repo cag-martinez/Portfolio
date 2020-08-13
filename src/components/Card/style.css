@@ -1,4 +1,8 @@
-
+.project-card {
+    width: inherit;
+    margin: inherit;
+    padding: 10%;
+}
 
 .card-body {
     padding: 3rem 0 !important;
