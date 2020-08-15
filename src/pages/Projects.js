@@ -44,7 +44,7 @@ class Projects extends Component {
                 deploy={"https://secure-beach-10858.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/note-taker"}
                 description={
-                  "Note taker, as the name says, lets users take notes, save them and delete once they are no longer needed. The application was built using JavaScript, CSS, and Node.js"
+                  "Note taker, as the name says, allows users to take notes, save them and delete once they are no longer needed. The application was built using JavaScript, CSS, and Node.js"
                 }
               />
             </div>
@@ -55,7 +55,7 @@ class Projects extends Component {
                 deploy={"https://infinite-citadel-35350.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/employee_directory"}
                 description={
-                  "this application is designed for employers to be able to view and search for employees by name and also sort in alphabetical order."
+                  "Created using React.js, Bootstrap, and JavaScript this application is designed for employers to be able to view and search for employees by name and also sort in alphabetical order."
                 }
               />
             </div>
@@ -68,7 +68,7 @@ class Projects extends Component {
                 }
                 github={"https://github.com/cag-martinez/Burger"}
                 description={
-                  "fun game that allows users to upload a fun burger name view the burgers others have submited and DEVOUR ONE!"
+                  "Fun simple game built using Express-Handlebars, Javascript, MySQL, ans Node that allows users to upload a fun burger name, view the burgers others have submited and DEVOUR ONE!"
                 }
               />
             </div>
@@ -79,7 +79,7 @@ class Projects extends Component {
                 deploy={"https://github.com/cag-martinez/Employee_tracker"}
                 github={"https://github.com/cag-martinez/Employee_tracker"}
                 description={
-                  "CLI that allows employers to add and edit employees in a database."
+                  "Simple Command Line Interface application that allows employers to add, edit and remove employees within a database."
                 }
               />
             </div>
