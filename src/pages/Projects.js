@@ -21,7 +21,7 @@ class Projects extends Component {
                 deploy={"http://boss-budget.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Lyrics_plus"}
                 description={
-                  "A budgeting application that allows the user to carefully balance their income and expenses, while being able to see curent stock market trends."
+                  "A budgeting application built using JavaScript, React, MongoDB, and web API's that allows the user to carefully balance their income and expenses, while being able to view curent stock market trends."
                 }
               />
             </div>
@@ -32,7 +32,7 @@ class Projects extends Component {
                 deploy={"https://pizza--tracker.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Pizza_tracker"}
                 description={
-                  "we all love pizza! so why not build your own and track it with our app! this application also allows busines owners to add employees to the system and be able to update the customer every step of the way."
+                  "We all love pizza! so why not build your own and track it with our app! this application was built using JavaScript, Express-Handlebars, MySQL, and Passport. This app not only can users create and track a pizza but also allows busines owners to add employees to the system and be able to update the customer every step of the way."
                 }
               />
             </div>
@@ -44,7 +44,7 @@ class Projects extends Component {
                 deploy={"https://secure-beach-10858.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/note-taker"}
                 description={
-                  "note taker, as the name says, lets users take notes to use later and save them or discard them when they are no longer needed."
+                  "Note taker, as the name says, lets users take notes, save them and delete once they are no longer needed. The application was built using JavaScript, CSS, and Node.js"
                 }
               />
             </div>
