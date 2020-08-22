@@ -14,30 +14,30 @@ class Projects extends Component {
       <div>
         <div className="flex-container container-fluid d-flex justify-content-center">
           <div className="row">
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img4}
                 title="Boss Budget"
                 deploy={"http://boss-budget.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Lyrics_plus"}
                 description={
-                  "A budgeting application built using JavaScript, React, MongoDB, and web API's that allows the user to carefully balance their income and expenses, while being able to view curent stock market trends."
+                  "A budgeting application built using JavaScript, React, MongoDB, and web API's that allows the user to carefully balance their income, savings, and expenses, while being able to view curent stock market trends."
                 }
               />
             </div>
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img6}
                 title="Pizza Tracker"
                 deploy={"https://pizza--tracker.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Pizza_tracker"}
                 description={
-                  "We all love pizza! so why not build your own and track it with our app! this application was built using JavaScript, Express-Handlebars, MySQL, and Passport. This app not only can users create and track a pizza but also allows busines owners to add employees to the system and be able to update the customer every step of the way."
+                  "We all love pizza! so why not build your own and track it with our app! this application was built using JavaScript, Express-Handlebars, MySQL, and Passport. This app not only allows users create and track a pizza but also allows busines owners to add employees to the system and be able to update the customer every step of the way."
                 }
               />
             </div>
 
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img5}
                 title="Note Taker"
@@ -48,7 +48,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img2}
                 title="Employee Directory"
@@ -59,7 +59,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img1}
                 title="Burger App"
@@ -68,18 +68,18 @@ class Projects extends Component {
                 }
                 github={"https://github.com/cag-martinez/Burger"}
                 description={
-                  "Fun simple game built using Express-Handlebars, Javascript, MySQL, ans Node that allows users to upload a fun burger name, view the burgers others have submited and DEVOUR ONE!"
+                  "Fun simple game built using Express-Handlebars, Javascript, MySQL, and Node that allows users to upload a fun burger name, view the burgers others have submited and DEVOUR ONE!"
                 }
               />
             </div>
-            <div className="col-6 col-md-4 col-md-3 mb-4 mb-4">
+            <div className="col-6 col-md-6 mb-4 mb-4">
               <Card
                 imgsrc={img3}
                 title="Employee Tracker"
                 deploy={"https://github.com/cag-martinez/Employee_tracker"}
                 github={"https://github.com/cag-martinez/Employee_tracker"}
                 description={
-                  "Simple Command Line Interface application that allows employers to add, edit and remove employees within a database."
+                  "Simple Command Line Interface application that allows employers to add, edit, and remove employees within a database."
                 }
               />
             </div>
