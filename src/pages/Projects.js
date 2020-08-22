@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
 import img1 from "../assets/images/burger2.png";
-import img2 from "../assets/images/employeeDirectory.png";
-import img3 from "../assets/images/tracker.png";
+// import img2 from "../assets/images/employeeDirectory.png";
+// import img3 from "../assets/images/tracker.png";
 import img4 from "../assets/images/bossBudget.png";
 import img5 from "../assets/images/noteTaker.png";
 import img6 from "../assets/images/newPizza.png";
@@ -12,9 +12,9 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div className="flex-container container-fluid d-flex justify-content-center">
+        <div className="flex-container  justify-content-center">
           <div className="row">
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            <div className="col-12 col-md-12">
               <Card
                 imgsrc={img4}
                 title="Boss Budget"
@@ -25,7 +25,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            <div className="col-12 col-md-12">
               <Card
                 imgsrc={img6}
                 title="Pizza Tracker"
@@ -37,7 +37,7 @@ class Projects extends Component {
               />
             </div>
 
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            <div className="col-12 col-md-12">
               <Card
                 imgsrc={img5}
                 title="Note Taker"
@@ -48,7 +48,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            {/* <div className="col-6 col-md-6">
               <Card
                 imgsrc={img2}
                 title="Employee Directory"
@@ -58,8 +58,8 @@ class Projects extends Component {
                   "Created using React.js, Bootstrap, and JavaScript this application is designed for employers to be able to view and search for employees by name and also sort in alphabetical order."
                 }
               />
-            </div>
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            </div> */}
+            <div className="col-12 col-md-12">
               <Card
                 imgsrc={img1}
                 title="Burger App"
@@ -72,7 +72,7 @@ class Projects extends Component {
                 }
               />
             </div>
-            <div className="col-6 col-md-6 mb-4 mb-4">
+            {/* <div className="col-6 col-md-6">
               <Card
                 imgsrc={img3}
                 title="Employee Tracker"
@@ -82,7 +82,7 @@ class Projects extends Component {
                   "Simple Command Line Interface application that allows employers to add, edit, and remove employees within a database."
                 }
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
