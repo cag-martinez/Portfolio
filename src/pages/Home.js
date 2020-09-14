@@ -40,14 +40,17 @@ function Home() {
         <div className="container">
           <h1 className="display-4">A little about me</h1>
           <p className="lead">
-            Solutions-driven full stack web developer applying technical
-            skillset towards building functional web applications. With two
-            years of customer acquisition and relationships management at a bank
-            and four years working at a top-level country club as a sous chef
-            leading a fantastic team there is a lot that I have learned and
-            experienced. Although fascinating, the most exhilarating moments are
-            those spent solving problems by creating user-friendly interfaces.
-            My skills include HTML5, CSS3, JavaScript, Reactjs, Nodejs, MongoDB,
+            I am an outdoor enthusiast, foodie and a solutions-driven web
+            developer with a passion for learning and helping others. Based in
+            Charlotte NC. There is a lot that i have learned and experienced in my professional 
+            career. I have been a customer acquisition and relationships manager
+            at a bank and spent four years working at a top-level country club
+            as a sous chef leading a fantastic team. I have participated in two
+            culinary competitons and also have participated in culinary events
+            for non-profit organizations such as JDRF. Although fascinating, the most
+            exhilarating moments are those when i am in front of my coputer
+            writing code and making user friendly websites.
+            {/* My skills include HTML5, CSS3, JavaScript, Reactjs, Nodejs, MongoDB,
             Mysql, OOP, MVC, API's, Git, CLI and visual studio code. With the
             knowledge I have acquired from the full stack web development
             bootcamp at The University of North Carolina at Charlotte, I have
@@ -59,14 +62,16 @@ function Home() {
             problems in a timely manner allowing me more time to focus on the
             smaller details. With a strong desire to continuously learn new
             skills, I want to continue to create mobile-first designs for users
-            to have a great experience.
+            to have a great experience. */}
           </p>
         </div>
       </div>
-    
+
       <div className="card col-sm-12">
         <div className="card-body">
-        <div><p>Languages : Frameworks : Libraries</p></div>
+          <div>
+            <p>Languages : Frameworks : Libraries</p>
+          </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
