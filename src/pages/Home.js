@@ -9,10 +9,10 @@ function Home() {
         <div className="cardPicture shadow">
           <img src={picture} className="card-img" alt="..." />
           <div className="card-body">
-            <h3>Hi! My name is Christian</h3>
-            <p className="card-text">I'm a full-stack web developer.</p>
-            <div className="card-header">Contact</div>
-            <div className="group ">
+            {/* <h3>Hi! My name is Christian</h3>
+            <p className="card-text">I'm a full-stack web developer.</p> */}
+            <div className="card-header"><h5>Lets conect</h5></div>
+            <div className="list-inline-item ">
               <a className="gitHub m-2" href="https://github.com/cag-martinez">
                 <i className="fab fa-github "></i>
               </a>
@@ -36,9 +36,9 @@ function Home() {
                 <i className="fas fa-envelope-open-text"></i>
               </a>
             </div>
-            <div className="list-group ">
+            {/* <div className="list-group ">
               <a>704-603-7988</a>
-            </div>
+            </div> */}
           </div>
         </div>
         <br></br>
@@ -49,9 +49,9 @@ function Home() {
       <br></br>
       <div className="jumbotron col-sm-6 jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">A little about me</h1>
+          <h1 className="aboutMe display-4">A little about me</h1>
           <p className="lead">
-            I am an outdoor enthusiast, foodie and a solutions-driven web
+            <h4>Hi! My name is Christian!</h4>I am an outdoor enthusiast, foodie and a solutions-driven web
             developer with a passion for learning and helping others. Based in
             Charlotte NC. There is a lot that i have learned and experienced in
             my professional career. I have been a customer acquisition and

@@ -4,7 +4,7 @@ import "./styles.css";
 function Footer() {
   return (
 <footer className="nav justify-content-center">
-    <span className="nav-link active"> © 2020</span>
+    <span className="nav-item"> Christian G.M © 09/20</span>
 </footer>
   );
 }

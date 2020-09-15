@@ -1,3 +1,7 @@
+.navbar{
+    text-align: center;
+    display: inline-block;
+}
 .navbar-brand{
     color: aliceblue;
     font-size: xx-large;
