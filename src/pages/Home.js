@@ -153,7 +153,7 @@ function Home() {
 
       <div className="flex-container  justify-content-center">
       <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="col-sm-12">
           <Card
             imgsrc={img4}
             title="Boss Budget"
@@ -164,7 +164,7 @@ function Home() {
             }
           />
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-sm-12">
           <Card
             imgsrc={img6}
             title="Pizza Tracker"
@@ -176,7 +176,7 @@ function Home() {
           />
         </div>
 
-        <div className="col-12 col-md-6">
+        <div className="col-sm-12">
           <Card
             imgsrc={img5}
             title="Note Taker"
@@ -198,7 +198,7 @@ function Home() {
             }
           />
         </div> */}
-        <div className="col-12 col-md-6">
+        <div className="col-sm-12">
           <Card
             imgsrc={img1}
             title="Burger App"

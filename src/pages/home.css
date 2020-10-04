@@ -45,3 +45,8 @@
 .aboutMe {
     font-family: 'Long Cang', cursive;
 }
+
+.flex-container {
+    padding: 10px;
+    margin: -40px;
+}

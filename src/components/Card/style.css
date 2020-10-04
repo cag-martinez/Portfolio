@@ -1,6 +1,7 @@
 .project-card {
     width: inherit;
     margin: inherit;
+    margin-top: 60px;
 }
 
 .card-body {
