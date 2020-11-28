@@ -7,11 +7,13 @@ import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
 import Wrapper from "./components/Wrapper";
 import Contact from "./pages/Contact";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <Router>
     <div className="App">
+    <Header />
       <Navbar />
       <Wrapper>
       <Route exact path="/" component={Home} />

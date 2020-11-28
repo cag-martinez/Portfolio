@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 import picture from "../assets/images/suit.png";
-
 import Card from "../components/Card";
 import img1 from "../assets/images/burger2.png";
 // import img2 from "../assets/images/employeeDirectory.png";
@@ -10,13 +9,15 @@ import img4 from "../assets/images/bossBudget.png";
 import img5 from "../assets/images/noteTaker.png";
 import img6 from "../assets/images/newPizza.png";
 
+
 function Home() {
   return (
     <div className="row home-row">
+      
       <div className="col-sm-6">
         <div className="cardPicture shadow">
-          <img src={picture} className="card-img" alt="..." />
-          <div className="card-body">
+          <img src={picture} className="card-img image-fluid" alt="..."  />
+          <div className="card-body" >
             {/* <h3>Hi! My name is Christian</h3>
             <p className="card-text">I'm a full-stack web developer.</p> */}
             <div className="card-header"><h5>Lets conect</h5></div>
@@ -28,7 +29,7 @@ function Home() {
                 className="linkedIn m-2"
                 href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/"
               >
-                <i className="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin 2x"></i>
               </a>
               <a
                 className="resume m-2"
@@ -61,7 +62,9 @@ function Home() {
           <p className="lead">
             <h4>Hi! My name is Christian!</h4>I am an outdoor enthusiast, foodie and a solutions-driven web
             developer with a passion for learning and helping others. Based in
-            Charlotte NC. There is a lot that i have learned and experienced in
+            Charlotte NC. 
+            
+            {/* There is a lot that i have learned and experienced in
             my professional career. I have been a customer acquisition and
             relationships manager at a bank and spent four years working at a
             top-level country club as a sous chef leading a fantastic team. I
@@ -69,7 +72,8 @@ function Home() {
             participated in culinary events for non-profit organizations such as
             JDRF. Although fascinating, the most exhilarating moments are those
             when i am in front of my coputer writing code and making user
-            friendly websites.
+            friendly websites. */}
+            
             {/* My skills include HTML5, CSS3, JavaScript, Reactjs, Nodejs, MongoDB,
             Mysql, OOP, MVC, API's, Git, CLI and visual studio code. With the
             knowledge I have acquired from the full stack web development
@@ -86,72 +90,10 @@ function Home() {
           </p>
         </div>
       </div>
+      
 
-      <div className="card col-sm-12">
-        <div className="card-body">
-          <div>
-            <p>Languages : Frameworks : Libraries</p>
-          </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-mysql-plain"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-sequelize-plain"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-mongodb-plain"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-bootstrap"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-git"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-github"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-jquery-plain"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-handlebars-plain"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-express-original"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="devicon-heroku-original"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fas fa-database"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fas fa-server"></i>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="flex-container  justify-content-center">
+            {/* <div className= "bacground-opacity" style={{ background: "silver", opacity: "50%" }}> */}
+      <div className="flex-container justify-content-center">
       <div className="row">
         <div className="col-sm-12">
           <Card
@@ -224,6 +166,72 @@ function Home() {
         </div> */}
       </div>
     </div>
+    {/* </div> */}
+
+          {/* card with languages, libraries and frameworks */}
+          <div className="card col-sm-12" style={{ border: 0 }}>
+        <div className="card-body">
+          <div>
+            <p>Languages : Frameworks : Libraries</p>
+          </div>
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <i className="fab fa-js-square"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-react"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-node-js"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-html5"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-css3-alt"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-mysql-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-sequelize-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-mongodb-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-bootstrap"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-git"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-github"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-jquery-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-handlebars-plain"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-express-original"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicon-heroku-original"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-database"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fas fa-server"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
 
     </div>
   );

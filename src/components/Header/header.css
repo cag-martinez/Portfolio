@@ -1,0 +1,11 @@
+.header{
+height: 90vh;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR27g9Kr6c0J648vpP9-DBzk_rV3bkI51XQXQ&usqp=CAU);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+clip-path: polygon(100% 0, 100% 90%, 69% 100%, 0 85%, 0 0);
+
+background-attachment: fixed;
+}
