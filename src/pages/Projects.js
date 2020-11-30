@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
-import img1 from "../assets/images/burger2.png";
+import img1 from "../assets/images/burgerIcon.png";
 // import img2 from "../assets/images/employeeDirectory.png";
 // import img3 from "../assets/images/tracker.png";
-import img4 from "../assets/images/bossBudget.png";
-import img5 from "../assets/images/noteTaker.png";
-import img6 from "../assets/images/newPizza.png";
+import img4 from "../assets/images/budget.png";
+import img5 from "../assets/images/notepad.png";
+import img6 from "../assets/images/pizzaSlice.png";
 import "./projects.css";
 
 class Projects extends Component {
