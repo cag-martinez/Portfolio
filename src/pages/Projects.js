@@ -17,6 +17,7 @@ class Projects extends Component {
             <div className="col-12 col-md-6">
               <Card
                 imgsrc={img4}
+                title="Boss Budget"
                 deploy={"http://boss-budget.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Lyrics_plus"}
                 description={
