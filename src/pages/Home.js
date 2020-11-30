@@ -55,12 +55,12 @@ function Home() {
           <div className="cardContact"></div>
         </div>
       </div>
-      <br></br>
+      {/* <br></br> */}
       <div className="jumbotron col-sm-6 jumbotron-fluid">
         <div className="container">
           <h1 className="aboutMe display-4">A little about me</h1>
           <p className="lead">
-            <h4>Hi! My name is Christian!</h4>I am an outdoor enthusiast, foodie and a solutions-driven web
+            I am an outdoor enthusiast, foodie and a solutions-driven web
             developer with a passion for learning and helping others. Based in
             Charlotte NC. 
             
@@ -93,9 +93,9 @@ function Home() {
       
 
             {/* <div className= "bacground-opacity" style={{ background: "silver", opacity: "50%" }}> */}
-      <div className="flex-container justify-content-center">
+      <div className="flex-container justify-content-center" style={{padding: "50px"}}>
       <div className="row">
-        <div className="col-sm-12">
+        <div className="col-lg-12 col-sm-12">
           <Card
             imgsrc={img4}
             title="Boss Budget"

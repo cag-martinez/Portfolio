@@ -63,7 +63,7 @@ class Projects extends Component {
                 imgsrc={img1}
                 title="Burger App"
                 deploy={
-                  "https://dashboard.heroku.com/apps/dazzling-mount-rainier-71399"
+                  "https://dazzling-mount-rainier-71399.herokuapp.com/"
                 }
                 github={"https://github.com/cag-martinez/Burger"}
                 description={
