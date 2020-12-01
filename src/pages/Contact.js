@@ -22,23 +22,23 @@ export default class MyForm extends React.Component {
         {/* <!-- add your custom form HTML here --> */}
         {/* <label>Email:</label>
         <input type="email" name="email" /> */}
-        <input
+        <label for="email">Email address</label><input
           className="form-email"
           type="text"
           name="_replyto"
-          placeholder="Reply to email address"
+          
         />
-        <label className="message-text"></label>
+        <label for="mesage">message</label>
         <input
           className="form-message"
           type="text"
           name="message"
-          placeholder="Message"
+         
         />
         {status === "SUCCESS" ? (
           <p>Thanks!</p>
         ) : (
-          <button className="button">Submit</button>
+          <button className="button btn-primary" style={{margin: "5px"}}>Submit</button>
         )}
         {status === "ERROR" && (
           <p>Ooops! There was an error. Please try again.</p>

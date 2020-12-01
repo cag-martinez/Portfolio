@@ -26,9 +26,8 @@ function Home() {
           </div>
         </div>
         <br></br>
-        <div className="col-sm-6">
-          <div className="cardContact"></div>
-        </div>
+
+
       </div>
 
 
@@ -138,9 +137,11 @@ function Home() {
           </ul>
         </div>
       </div>
-      <div>
+     
         <Contact />
-      </div>
+      
+
+
       <div className="list-inline-item">
               <a className="gitHub m-2" href="https://github.com/cag-martinez">
                 <i className="fab fa-github "></i>
@@ -165,6 +166,7 @@ function Home() {
                 <i className="fas fa-envelope-open-text"></i>
               </a>
             </div>
+
     </div>
   );
 }
