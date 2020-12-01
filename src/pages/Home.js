@@ -77,7 +77,7 @@ class Home extends Component {
           </div> */}
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className=" tag fab fa-js-square"></i>
+              <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react"></i>

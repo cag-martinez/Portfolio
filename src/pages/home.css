@@ -3,9 +3,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    border-radius: 3px;
-    border-radius: 50%;
-  background-color: cornflowerblue;
+    /* border-radius: 3px; */
+    border-radius:   5%;
+
   width: 100%;
   height: auto;
 }
@@ -81,22 +81,6 @@
   font-family: "Long Cang", cursive;
 }
 
-/* .flex-container {
-  padding: 10px;
-  margin: -40px;
-} */
-.tag:hover{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: auto;
-    opacity: 0;
-    transition: 1s ease;
-    background-color: #008bbaad;
-}
 
 .previousWork{
     margin-top: 50px;
