@@ -1,52 +1,12 @@
 .card-img {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /* border-radius: 3px; */
-    border-radius:   5%;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 5%;
   width: 100%;
   height: auto;
 }
-
-/* .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  width: auto;
-  opacity: 0;
-  transition: 1s ease;
-  background-color: #008bbaad;
-}
-
-.cardPicture:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-} */
-
-/* .cardPicture{
-    width: 20rem;
-    border: 1px inset rgb(145, 138, 138);
-    outline-style: inset;
-    outline-color: rgb(177, 177, 177);
-    outline-width: thin;
-    padding: 5px;
-    inline-size: inherit;
-    
-} */
 
 .jumbotron {
   background-color: rgba(11, 12, 12, 0);
@@ -64,28 +24,19 @@
   padding: 0%;
   margin-bottom: 10%;
   margin-top: 5%;
-  
 }
-
 
 .list-inline-item {
   font-size: 40px;
-  
 }
-
-/* .group {
-    padding: 10px;
-} */
 
 .aboutMe {
   font-family: "Long Cang", cursive;
 }
 
-
-.previousWork{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: "Long Cang", cursive;
-    text-decoration: overline;
-
+.previousWork {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Long Cang", cursive;
+  text-decoration: overline;
 }

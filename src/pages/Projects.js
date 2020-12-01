@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
 import img1 from "../assets/images/burgerIcon.png";
-// import img2 from "../assets/images/employeeDirectory.png";
-// import img3 from "../assets/images/tracker.png";
 import img4 from "../assets/images/budget.png";
 import img5 from "../assets/images/notepad.png";
 import img6 from "../assets/images/pizzaSlice.png";
@@ -36,7 +34,6 @@ class Projects extends Component {
                 }
               />
             </div>
-
             <div className="col-12 col-md-6">
               <Card
                 imgsrc={img5}
@@ -48,41 +45,17 @@ class Projects extends Component {
                 }
               />
             </div>
-            {/* <div className="col-6 col-md-6">
-              <Card
-                imgsrc={img2}
-                title="Employee Directory"
-                deploy={"https://infinite-citadel-35350.herokuapp.com/"}
-                github={"https://github.com/cag-martinez/employee_directory"}
-                description={
-                  "Created using React.js, Bootstrap, and JavaScript this application is designed for employers to be able to view and search for employees by name and also sort in alphabetical order."
-                }
-              />
-            </div> */}
             <div className="col-12 col-md-6">
               <Card
                 imgsrc={img1}
                 title="Burger App"
-                deploy={
-                  "https://dazzling-mount-rainier-71399.herokuapp.com/"
-                }
+                deploy={"https://dazzling-mount-rainier-71399.herokuapp.com/"}
                 github={"https://github.com/cag-martinez/Burger"}
                 description={
                   "Fun simple game built using Express-Handlebars, Javascript, MySQL, and Node that allows users to upload a fun burger name, view the burgers others have submited and DEVOUR ONE!"
                 }
               />
             </div>
-            {/* <div className="col-6 col-md-6">
-              <Card
-                imgsrc={img3}
-                title="Employee Tracker"
-                deploy={"https://github.com/cag-martinez/Employee_tracker"}
-                github={"https://github.com/cag-martinez/Employee_tracker"}
-                description={
-                  "Simple Command Line Interface application that allows employers to add, edit, and remove employees within a database."
-                }
-              />
-            </div> */}
           </div>
         </div>
       </div>
