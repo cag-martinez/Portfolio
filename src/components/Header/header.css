@@ -6,7 +6,7 @@ background-position: center;
 background-repeat: no-repeat;
 opacity: 75%;
 
-clip-path: polygon(100% 0, 100% 90%, 69% 100%, 0 85%, 0 0);
+clip-path: polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0);
 
 background-attachment: fixed;
 }
