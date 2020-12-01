@@ -25,13 +25,13 @@ export default class MyForm extends React.Component {
         {/* <!-- add your custom form HTML here --> */}
         {/* <label>Email:</label>
         <input type="email" name="email" /> */}
-        <label for="email">Email address</label><input
+        <label for="email">Email Address</label><input
           className="form-email"
           type="text"
           name="_replyto"
           
         />
-        <label for="mesage">message</label>
+        <label for="mesage">Message</label>
         <input
           className="form-message"
           type="text"

@@ -74,11 +74,11 @@ function Home() {
       </div>
 
       {/* card with languages, libraries and frameworks */}
-      <div className="card col-sm-12" style={{ border: 0 }}>
+      <div className="card col-sm-12" style={{ padding: "0px", margin: "0px", border:"0px"}}>
         <div className="card-body">
-          <div>
+          {/* <div>
             <p>Languages : Frameworks : Libraries</p>
-          </div>
+          </div> */}
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
