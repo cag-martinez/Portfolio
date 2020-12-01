@@ -5,7 +5,7 @@ import "./header.css";
 function Header() {
   return (
     <div>
-      <section className="header" style={{background: `url(${Background}),`}}></section>
+      <section className="header" style={{backgroundImage: `url(${Background}),`}}></section>
     </div>
   );
 }
