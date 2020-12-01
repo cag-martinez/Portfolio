@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./home.css";
 import picture from "../assets/images/suit.png";
 // import Card from "../components/Card";
@@ -6,16 +6,19 @@ import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 
 
-function Home() {
+class Home extends Component {
+  render() {
   return (
+    <div>
+    <div className="container  flex-container justify-content-center">
     <div className="row home-row">
       
       <div className="col-sm-6">
         <div className="cardPicture shadow">
           <img src={picture} className="card-img" alt="..." />
-          <div className="overlay">
+          {/* <div className="overlay">
     <div className="text">Hi! Im Christian</div>
-  </div>
+  </div> */}
         </div>
       
 
@@ -60,6 +63,7 @@ function Home() {
       {/* <div className= "bacground-opacity" style={{ background: "silver", opacity: "50%" }}> */}
       
       <div className="container">
+      <p><h1 className="previousWork" >Some of the work l have done</h1></p>
         <div className="row">
         <Projects />
         </div>
@@ -163,9 +167,10 @@ function Home() {
                 <i className="fas fa-envelope-open-text"></i>
               </a>
             </div> */}
-
+</div>
+    </div>
     </div>
   );
-}
+}}
 
 export default Home;

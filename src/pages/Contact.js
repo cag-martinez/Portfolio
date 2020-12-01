@@ -39,7 +39,7 @@ export default class MyForm extends React.Component {
          
         />
         {status === "SUCCESS" ? (
-          <p>Thanks!</p>
+          <p>Thank you!</p>
         ) : (
           <button className="button btn-primary" style={{margin: "5px"}}>Submit</button>
         )}
