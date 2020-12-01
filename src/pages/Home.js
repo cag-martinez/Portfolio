@@ -139,7 +139,7 @@ function Home() {
       </div>
      
       <div className="container">
-        <div className="row">
+        <div className="row col-md-12">
         <Contact />
         </div>
       </div>
