@@ -63,7 +63,7 @@ class Home extends Component {
       {/* <div className= "bacground-opacity" style={{ background: "silver", opacity: "50%" }}> */}
       
       <div className="container">
-      <p><h1 className="previousWork" >Some of the work l have done</h1></p>
+      <p><h1 className="previousWork" >My recent work</h1></p>
         <div className="row">
         <Projects />
         </div>
@@ -77,7 +77,7 @@ class Home extends Component {
           </div> */}
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
+              <i className=" tag fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react"></i>

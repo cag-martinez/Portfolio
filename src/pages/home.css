@@ -85,6 +85,18 @@
   padding: 10px;
   margin: -40px;
 } */
+.tag:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #008bbaad;
+}
 
 .previousWork{
     margin-top: 50px;
