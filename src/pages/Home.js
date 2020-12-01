@@ -13,26 +13,18 @@ function Home() {
       <div className="col-sm-6">
         <div className="cardPicture shadow">
           <img src={picture} className="card-img" alt="..." />
-          <div className="card-body">
-            {/* <h3>Hi! My name is Christian</h3>
-            <p className="card-text">I'm a full-stack web developer.</p> */}
-            <div className="card-header">
-              <h5>Lets conect</h5>
-            </div>
-
-            {/* <div className="list-group ">
-              <a>704-603-7988</a>
-            </div> */}
-          </div>
+          <div className="overlay">
+    <div className="text">Hi! Im Christian</div>
+  </div>
         </div>
-        <br></br>
+      
 
 
       </div>
 
 
       {/* <br></br> */}
-      <div className="jumbotron col-sm-6 jumbotron-fluid">
+      <div className="jumbotronHome col-sm-6 jumbotron-fluid">
         <div className="container">
           <h1 className="aboutMe display-4">A little about me</h1>
           <p className="lead">

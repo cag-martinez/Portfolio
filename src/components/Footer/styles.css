@@ -22,3 +22,7 @@
   .nav-link{
     text-size-adjust: 1px;
   }
+
+  .nav-item-footer{
+    font-family: 'Tangerine', cursive;
+  }
