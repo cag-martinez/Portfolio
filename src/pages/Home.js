@@ -138,11 +138,16 @@ function Home() {
         </div>
       </div>
      
+      <div className="container">
+        <div className="row">
         <Contact />
+        </div>
+      </div>
+        
       
 
 
-      <div className="list-inline-item">
+      {/* <div className="list-inline-item">
               <a className="gitHub m-2" href="https://github.com/cag-martinez">
                 <i className="fab fa-github "></i>
               </a>
@@ -165,7 +170,7 @@ function Home() {
                 {" "}
                 <i className="fas fa-envelope-open-text"></i>
               </a>
-            </div>
+            </div> */}
 
     </div>
   );

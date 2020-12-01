@@ -13,6 +13,9 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
+
+      <div className="jumbotron jumbotron-fluid">
+  <div className="container">
       <form
         className="form"
         onSubmit={this.submitForm}
@@ -44,6 +47,35 @@ export default class MyForm extends React.Component {
           <p>Ooops! There was an error. Please try again.</p>
         )}
       </form>
+      </div>
+
+      <div className="list-inline-item contactButtons">
+              <a className="gitHub m-2" href="https://github.com/cag-martinez">
+                <i className="fab fa-github "></i>
+              </a>
+              <a
+                className="linkedIn m-2"
+                href="https://www.linkedin.com/in/christian-gomez-martinez-0b06241aa/"
+              >
+                <i className="fab fa-linkedin 2x"></i>
+              </a>
+              <a
+                className="resume m-2"
+                href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing"
+              >
+                <i className="far fa-file"></i>
+              </a>
+              <a
+                className="email m-2"
+                href="https://infinite-wildwood-08615.herokuapp.com/Contact"
+              >
+                {" "}
+                <i className="fas fa-envelope-open-text"></i>
+              </a>
+            </div>
+
+
+      </div>
     );
   }
 
