@@ -1,10 +1,11 @@
 import React from "react";
+import Background from "../../assets/images/magnifyingCode.jpg"
 import "./header.css";
 
 function Header() {
   return (
     <div>
-      <section className="header"></section>
+      <section className="header" style={{backgroundImage: "url(" + Background + ")"}}></section>
     </div>
   );
 }
