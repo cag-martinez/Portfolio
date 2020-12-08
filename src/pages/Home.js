@@ -22,7 +22,7 @@ class Home extends Component {
                 <p className="lead">
                   I am an outdoor enthusiast, foodie and a solutions-driven web
                   developer with a passion for learning and helping others.
-                  Based in Charlotte NC.
+                  Based in Charlotte NC. 
                 </p>
               </div>
             </div>
@@ -105,6 +105,9 @@ class Home extends Component {
                 <Contact />
               </div>
             </div>
+
+      {/* create a component for customer revies and add to this section of the page */}
+
           </div>
         </div>
       </div>
