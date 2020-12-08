@@ -12,7 +12,7 @@ class Home extends Component {
           <div className="row home-row">
             <div className="col-sm-6">
               <div className="cardPicture shadow">
-                <img src={picture} className="card-img" alt="..." />
+                <img src={picture} className="card-img" width="" height="" alt="..." />
               </div>
             </div>
             {/* about me section */}
