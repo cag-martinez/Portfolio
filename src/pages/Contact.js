@@ -54,12 +54,12 @@ export default class MyForm extends React.Component {
             <i className="fab fa-linkedin 2x"></i>
           </a>
           {/* resume */}
-          <a
+          {/* <a
             className="resume m-2"
             href="https://docs.google.com/document/d/18qw-lEY3oQNshFULbmP3Z0aQER8ksWDaQ9U3hTic1Kk/edit?usp=sharing"
           >
             <i className="far fa-file"></i>
-          </a>
+          </a> */}
           {/* email */}
           <a
             className="email m-2"
