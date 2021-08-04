@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./home.css";
-import picture from "../assets/images/suit.png";
+//import picture from "../assets/images/suit.png";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
+import AboutMe from '../components/Bio/AboutMe'
 
 class Home extends Component {
   render() {
@@ -10,13 +11,14 @@ class Home extends Component {
       <div>
         <div className="container  flex-container justify-content-center">
           <div className="row home-row">
-            <div className="col-sm-6">
+            {/* <div className="col-sm-6">
               <div className="cardPicture shadow">
                 <img src={picture} className="card-img" width="" height="" alt="..." />
               </div>
-            </div>
-            {/* about me section */}
-            <div className="jumbotronHome col-sm-6 jumbotron-fluid">
+            </div> */}
+            {/* about me section and picture */}
+            <AboutMe />
+            {/* <div className="jumbotronHome col-sm-6 jumbotron-fluid">
               <div className="container">
                 <h1 className="aboutMe display-4">A little about me</h1>
                 <p className="lead">
@@ -25,7 +27,7 @@ class Home extends Component {
                   Based in Charlotte NC. 
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* projects section */}
             <div className="container">
               <p>
