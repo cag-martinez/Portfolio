@@ -32,7 +32,7 @@ export default class MyForm extends React.Component {
             ) : (
               // submit button
               <button className="button btn-primary" style={{ margin: "5px" }}>
-                Submit
+                Send!
               </button>
             )}
             {status === "ERROR" && (
