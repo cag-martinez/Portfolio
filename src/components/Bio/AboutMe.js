@@ -5,10 +5,10 @@ import './aboutMe.css';
 function AboutMe() {
   return (
     
-      <div className="aboutMeCard card mb-3" style={{minWidth: 'inherit'}}>
+      <div className="aboutMeCard card w-100" style={{maxWidth: '99%'}}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={picture} className="img-fluid rounded-start" style={{maxBlockSize: '250px'}} alt="..." />
+            <img src={picture} className="img-fluid rounded-start" style={{maxBlockSize: '225px'}} alt="..." />
           </div>
           <div className="col-md-8">
             <div className="aboutMeText card-body">

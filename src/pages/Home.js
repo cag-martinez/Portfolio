@@ -9,7 +9,10 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="container  flex-container justify-content-center">
+        {/* This className below has a name of "container" which i removed to make the page 
+        not have a margin on the sides. if needed just add the word "container" after the className
+        on line 15 */}
+        <div className="container flex-container justify-content-center">
           <div className="row home-row">
             {/* <div className="col-sm-6">
               <div className="cardPicture shadow">
