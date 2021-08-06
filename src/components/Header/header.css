@@ -10,3 +10,14 @@ clip-path: polygon(100% 0, 100% 75%, 69% 100%, 0 85%, 0 0);
 
 background-attachment: fixed;
 } */
+
+.header::before{
+    content: "";
+    height: 50vh;
+    width: inherit;
+    background: rgba(0, 0, 0, 0.71);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

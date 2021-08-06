@@ -36,7 +36,7 @@ class Home extends Component {
               <p>
                 <h1 className="previousWork">My recent work</h1>
               </p>
-              <div className="row">
+              <div className="projectsRow row">
                 <Projects />
               </div>
             </div>
